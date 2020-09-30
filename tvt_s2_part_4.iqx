@@ -1,0 +1,920 @@
+﻿
+
+
+<picture coversheet2>
+/ items = coversheet2
+</picture>
+
+<item coversheet2>
+/1 = "studyCoverSheet2_4_1.jpg"
+</item>
+
+<trial coversheet2>  
+/ frames = [1=coversheet2]
+/ trialduration = 5000
+</trial>
+
+<block coversheet2>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet2]
+</block>
+
+
+
+<picture coversheet3>
+/ items = coversheet3
+</picture>
+
+<item coversheet3>
+/1 = "studyCoverSheet2_4_2.jpg"
+</item>
+
+<trial coversheet3>  
+/ frames = [1=coversheet3]
+/ trialduration = 5000
+</trial>
+
+<block coversheet3>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet3]
+</block>
+
+
+
+<picture coversheet4>
+/ items = coversheet4
+</picture>
+
+<item coversheet4>
+/1 = "studyCoverSheet2_5.jpg"
+</item>
+
+<trial coversheet4>  
+/ frames = [1=coversheet4]
+/ trialduration = 5000
+</trial>
+
+<block coversheet4>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet4]
+</block>
+
+*****************************************************************************************************************************************
+CEG NF only
+*****************************************************************************************************************************************
+
+
+<picture test_P>
+/ items = test
+/ select = noreplacenorepeat
+/ size = (800, 1200)
+/ erase = false
+
+</picture>
+
+<item test>
+
+/ 63="ecmi-wm1-224FB.jpg"
+/ 72="ecmi-wm2-33FB.jpg"
+/ 73="ecmi-wm3-198FB.jpg"
+/ 74="ecmi-wm4-268FB.jpg"
+/ 75="ecmi-wm5-80FB.jpg"
+/ 76="ecmi-wm6-187FB.jpg"
+/ 77="ecmi-wm7-127FB.jpg"
+/ 78="ecmi-wm8-141FB.jpg"
+/ 79="ecmi-wm9-59FB.jpg"
+/ 80="ecmi-wm10-191FB.jpg"
+/ 81="ecmi-wm11-18FB.jpg"
+/ 64="ecmi-wm12-46FB.jpg"
+/ 82="ecmi-wm13-61FB.jpg"
+/ 83="ecmi-wm14-20FB.jpg"
+/ 84="ecmi-wm15-259FB.jpg"
+/ 85="ecmi-wm16-104FB.jpg"
+/ 86="ecmi-wm17-131FB.jpg"
+/ 87="ecmi-wm18-140FB.jpg"
+
+/ 31="ecmi-bm1-68FB.jpg"
+/ 32="ecmi-bm2-30FB.jpg"
+
+/ 1="ecmi-am1-288FB.jpg"
+/ 10="ecmi-am2-7FB.jpg"
+/ 11="ecmi-am3-92FB.jpg"
+/ 12="ecmi-am4-139FB.jpg"
+/ 13="ecmi-am5-160FB.jpg"
+
+/ 117="ecmi-ww1-52FB.jpg"
+/ 126="ecmi-ww2-209FB.jpg"
+/ 127="ecmi-ww3-245FB.jpg"
+/ 128="ecmi-ww4-180FB.jpg"
+/ 129="ecmi-ww5-193FB.jpg"
+/ 130="ecmi-ww6-27FB.jpg"
+/ 131="ecmi-ww7-179FB.jpg"
+/ 132="ecmi-ww8-235FB.jpg"
+/ 133="ecmi-ww9-82FB.jpg"
+/ 134="ecmi-ww10-73FB.jpg"
+/ 135="ecmi-ww11-112FB.jpg"
+/ 118="ecmi-ww12-152FB.jpg"
+/ 136="ecmi-ww13-135FB.jpg"
+/ 137="ecmi-ww14-220FB.jpg"
+/ 138="ecmi-ww15-130FB.jpg"
+/ 139="ecmi-ww16-205FB.jpg"
+/ 140="ecmi-ww17-263FB.jpg"
+/ 141="ecmi-ww18-190FB.jpg"
+
+/ 37="ecmi-bw1-24FB.jpg"
+/ 38="ecmi-bw2-43FB.jpg"
+
+/ 16="ecmi-aw1-25FB.jpg"
+/ 25="ecmi-aw2-106FB.jpg"
+/ 26="ecmi-aw3-53FB.jpg"
+/ 27="ecmi-aw4-201FB.jpg"
+/ 28="ecmi-aw5-90FB.jpg"
+
+</item>
+
+
+<text StraightLeft>  
+/ numitems = 1
+/ items = ("Hit 'S' for Straight")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (10, 10)
+</text>
+
+<text GayRight>  
+/ numitems = 1
+/ items = ("Hit 'G' for Gay")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (80, 10)
+</text>
+
+<text Chemistryright>  
+/ numitems = 1
+/ items = ("Hit 'K' for Chemistry")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (80, 10)
+</text>
+
+<text Englishleft>  
+/ numitems = 1
+/ items = ("Hit 'D' for English")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (10, 10)
+</text>
+
+<text NFRecord>  
+/ numitems = 1
+/ items = ("      Response Recorded     ")
+/ font = ("Times New Roman", -28, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ color = (0, 0, 0)
+/ position = (50, 95)
+/ erase = false
+</text>
+
+
+<text Notsurebottom>  
+/ numitems = 1
+/ items = ("Hit 'N' for I’m not sure")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 90)
+</text>
+
+
+<trial test>
+
+/ validkeys = ("d", "k", "n")
+/ correctresponse = ("k")
+/ frames = [1= noreplace(eraseword);20=noreplace(test_P)]
+/ errormessage = (NFRecord, 500)
+/ correctmessage = (NFRecord, 500)
+
+</trial>
+
+
+<trial gaydar>
+
+/ validkeys = ("g", "s", "n")
+/ correctresponse = ("g")
+/ frames = [1= noreplace(eraseword);20=noreplace(gaydarfaces)]
+/ errormessage = (NFRecord, 500)
+/ correctmessage = (NFRecord, 500)
+
+</trial>
+
+***********Testing blocks********
+<block CEGtest>
+/ trials = [1-50=noreplacenorepeat(test)]
+
+/ screencolor = (255, 255, 255)
+/ bgstim = (Englishleft, Chemistryright, Notsurebottom)
+/ preinstructions = (categorize_page1,categorize_page2,categorize_page3)
+</block>
+
+<block gaydarBlock>
+/ trials = [1-30=noreplacenorepeat(gaydar)]
+
+/ screencolor = (255, 255, 255)
+/ bgstim = (straightLeft, gayRight, Notsurebottom)
+/ preinstructions = (categorize_page4,categorize_page5)
+</block>
+
+
+
+***shape
+<shape eraseword>
+/ color = (255, 255, 255)
+/ position = (50, 95)
+/ shape = rectangle
+/ size = (700, 50)
+/ erase = false
+</shape>
+
+
+*shape to block rest of facebook profiles during face recognition task
+<shape rectangle_right>
+/ shape = rectangle
+/ color = (255, 255, 255)
+/ position = (65, 58)
+/ size = ( 800,400)
+/ erase = false
+</shape>
+
+<shape rectangle_left>
+/ shape = rectangle
+/ color = (255, 255, 255)
+/ position = (30%, 75%)
+/ size = ( 300,300)
+/ erase = false
+</shape>
+
+<page categorize_page1>  
+The task that you will be doing in this experiment involves interpersonal perception on social networking sites.^^
+Social networking sites like Facebook have become the new frontier of human social interaction.  We are studying how people perceive and understand each other through these new social environments.^^
+This study is interested in the workings of social networking and its influence on personal identification. Today, we are looking at how people are able to perceive a person's academic major from Facebook profiles.^^
+We collected profiles of English and chemistry majors from Facebook. There will be about half English majors and half Chemistry majors. On each trial, you will see a Facebook profile and tell us whether the person is an English or a chemistry major.^^  
+</page>
+
+<page categorize_page2>
+We want to pretest how people perceive these people's profiles before using them in another study.  You're helping us pick which Facebook profiles we will use in our study.^^
+You will be shown a person's Facebook profile and you will report whether the person strikes you as an English or a chemistry major. ^^
+You should respond quickly, giving your gut responses for each profile.^^
+Consider the person's profile "likes" or interests when you make the judgments.  Please don't censor yourself; we need your real, unfiltered reactions to help understand implicit interpersonal perception online.  Don't try to infuse your personal values; respond with what you believe most people would say.^^
+</page>
+
+<page categorize_page3> 
+REMEMBER: The two categories that you are to distinguish are:^^
+CHEMISTRY MAJOR vs. ENGLISH MAJOR.^^
+Press the ‘K' key if the stimulus is a CHEMISTRY MAJOR.^^
+Press the ‘D' key if the stimulus is an ENGLISH MAJOR.^^
+</page>
+
+<page categorize_page4>  
+The task that you will be doing in this experiment involves interpersonal perception on social networking sites.^^
+
+We want to pretest how people perceive these people's profiles before using them in another study.  
+You're helping us pick which Facebook profiles we will use in our study.^^
+You will be shown a person's Facebook profile and you will report whether the person strikes you as an gay or straight. ^^
+You should respond quickly, giving your gut responses for each profile.^^
+Consider the person's profile "likes" or interests when you make the judgments.  
+Please don't censor yourself; we need your real, unfiltered reactions to help understand implicit interpersonal perception online.  
+Don't try to infuse your personal values; respond with what you believe most people would say.^^
+</page>
+
+<page categorize_page5> 
+REMEMBER: The two categories that you are to distinguish are:^^
+GAY vs. STRAIGHT.^^
+Press the ‘S' key if the stimulus is STRAIIGHT.^^
+Press the ‘G' key if the stimulus is GAY.^^
+</page>
+
+<picture PPD>
+/ numitems = 11
+/ items = PPD
+/ size = (650,350)
+/ select = noreplacenorepeat
+/ resetinterval = 0
+/ position = (70,50)
+</picture>
+
+
+<item PPD>
+/ 1="CoxLabWomeninScience_ 0of10.jpg"
+/ 2="CoxLabWomeninScience_1of10.jpg"
+/ 3="CoxLabWomeninScience_2of10.jpg"
+/ 4="CoxLabWomeninScience_3of10.jpg"
+/ 5="CoxLabWomeninScience_4of10.jpg"
+/ 6="CoxLabWomeninScience_5of10.jpg"
+/ 7="CoxLabWomeninScience_6of10.jpg"
+/ 8="CoxLabWomeninScience_7of10.jpg"
+/ 9="CoxLabWomeninScience_8of10.jpg"
+/ 10="CoxLabWomeninScience_9of10.jpg"
+/ 11="CoxLabWomeninScience_10of10.jpg"
+</item>
+
+
+
+
+<picture department>
+/ numitems = 372
+/ items = department
+/ size = (600,350)
+/ select = noreplacenorepeat
+/ resetinterval = 0
+/ position = (78,50)
+</picture>
+
+<item department>
+/1="abtech-beahvioralsciences-f.jpg"
+/2="abtech-nursing-f.jpg"
+/3="americansportsmedicineinstitute-sportsmedicine-f.jpg"
+/4="anderson-schoolofmanagement-f.jpg"
+/5="ANSCfacultygrouppic.jpg"
+/6="arkansas-communication-f.jpg"
+/7="arkansas-cropsoilandenvironmentalsciences-f.jpg"
+/8="arkansas-electricalengineering-f.jpg"
+/9="arkansasatlittlerock-education-f.jpg"
+/10="arkansasatlittlerock-law-f.png"
+/11="arkansasatlittlerock-theatreartsanddance-f.jpg"
+/12="augsburg-religion-f.jpg"
+/13="augsburg-socialwork-f.jpg"
+/14="augsburguniversity-mathematicsstatisticsandcomputerscience-f.jpg"
+/15="augustauniversity-biotechnologyandgenomicmedicine-f.PNG"
+/16="belmont-occupationaltherapy-s.jpg"
+/17="benedictine-physicsandastronomy-f.jpg"
+/18="berkeley-integrativebiology-f.jpg"
+/19="berkeley-statistics-f.jpg"
+/22="betheluniversity-newhires-f.jpg"
+/23="blackhawkcollege-nursing-f.jpg"
+/24="bowlinggreenstateuniversity-computerscience-s.jpg"
+/25="brandeis-biochem-f.jpg"
+/26="brandeis-classicalstudies-f.jpg"
+/27="brandeis-math-f.jpg"
+/28="brandeis-neuroscience-f.jpg"
+/29="brandeis-physics-f.jpg"
+/30="brenauuniversity-unspecified-f.jpg"
+/31="brighamyoung-mechanicalengineering-f.jpg"
+/32="brown-sociology-f.jpg"
+/34="byuidaho-psychology-f.jpg"
+/35="californiastate-healthsciences-f.png"
+/36="californiastate-psychology-f.jpg"
+/37="calstate-womensgenderandsexualitystudies-f.jpg"
+/38="carnegiemellon-english-f.jpg"
+/39="castlefordacademy-deafresourceteam-f.jpg"
+/40="centralconnecticutstateuniversity-math-f.jpg"
+/41="chadronstatecollege-agriculturalstudies-fs.jpg"
+/42="chadronstatecollege-law-s.jpg"
+/43="claremontmckennacollege-phychology-f.jpg"
+/44="clintoncommunitycollege-technology-f.jpg"
+/45="colbysawyercollege-newfaculty-f.jpg"
+/46="colbysawyeruniversity-nursing-fs.jpg"
+/47="collegeofcoastalgeorgia-unspecified-f.jpg"
+/48="collegeofidaho-alumniboard-f.jpg"
+/49="collegestscholastica-nursing-f.jpg"
+/50="coloradostate-mechanicalengineering-f.jpg"
+/51="coloradostate-mentoringprogram-f.jpg"
+/52="coloradostate-psychology-f.jpg"
+/53="columbia-biomedicalengineering-s.jpg"
+/55="columbia-environmentalhealthsciences-s.jpg"
+/56="columbia-medicalphysicsandappliedmath-f.jpg"
+/57="columbia-neurology-s.jpg"
+/58="columbia-politicalscience-s.jpg"
+/59="columbia-statistics-s.jpg"
+/60="columbia-urology-s.jpg"
+/61="concordiauniversity-marketing-f.jpg"
+/62="cornell-classicalstudies-s.jpg"
+/63="cornell-communication-s.png"
+/64="cornell-engineering-f.jpg"
+/65="cornell-molecularbiologyandgenetics-s.jpg"
+/66="cornell-spanish-s.jpg"
+/67="cornellcollegeiowa-newhires-f.jpg"
+/68="creightonuniversity-healthsciences-f.jpg"
+/69="creightonuniversity-occupationaltherapy-f.jpg"
+/70="creightonuniversity-politicalscience-f.jpg"
+/71="cudenver-biochemistryandmoleculargenetics-f.jpg"
+/74="desertresearchinstitute-organicanalysislaboratory-f.jpg"
+/77="dzhk-professorships-f.jpg"
+/78="easternkentucky-occupationaltherapy-f.jpg"
+/79="elonuniversity-physics-f.jpg"
+/80="familymedicineresidencyofidaho-nampaprogram-f.jpg"
+/81="farmingdalestatecollege-psychology-f.jpg"
+/82="fitchburgstateuniversity-mathematics-f.jpg"
+/83="furman-religon-f.jpg"
+/84="georgetown-biostatistics-f.jpg"
+/85="georgetown-linguistics-f.jpg"
+/86="georgetown-marketing-f.jpg"
+/87="georgewashington-astrophysics-f.jpg"
+/88="georgewashington-chemistry-fs.jpg"
+/89="georgewashington-organizationalsciences-f.jpg"
+/90="georgewashington-psychiatry-f.jpg"
+/91="georgewashington-psychology-f.jpg"
+/92="georgiastate-sociology-f.jpg"
+/93="goshen-music-f.jpg"
+/94="grandview-newhires-f.jpg"
+/95="grovecitycollege-newfaculty-f.jpg"
+/96="gustavus-economics-f.png"
+/97="gustavus-greeklatinclassicalstudies-f.jpg"
+/98="gustavus-physics-f.jpg"
+/99="harvard-economics-s.jpg"
+/100="harvard-engineeringandappliedsciences-f.png"
+/103="harvard-mathematics-s.jpg"
+/104="harvard-physics-f.png"
+/105="harvard-psychology-s.jpg"
+/107="harvard-sociology-s.jpg"
+/108="harvard-stemcellandregenerativebiology-f.jpg"
+/109="idaho-idahopresstribune-f.jpg"
+/110="idahostateuniversity-education-f.jpg"
+/111="illinoisinstituteoftechnology-unspecified-f.jpg"
+/112="imprs-astrophysics-s.jpg"
+/113="indianastate-history-f.jpg"
+/114="indianauniversity-history-f.jpg"
+/115="indianauniversity-informatics-f.jpg"
+/116="indianauniversity-internalmedicine-f.jpg"
+/117="indianauniversity-law-f.png"
+/118="indianauniversity-newfaculty-f.jpg"
+/120="indianauniversitykokomo-newhires-f.jpg"
+/121="indianauniversitysouthbend-computersciences-f.jpg"
+/122="iowastate-agronomy-f.jpg"
+/123="iowastate-appliedlinguistics-f.jpg"
+/125="iowastate-engineering-f.jpg"
+/126="iowastate-genderwomensstudies-f.jpg"
+/127="iowastate-humansciences-f.jpg"
+/128="iowastate-mathematics-f.jpg"
+/129="iowastateuniversity-womensandgenderstudiesprogram-f.jpg"
+/130="jamesmadison-computerscience-f.jpg"
+/131="kansasstate-kinesiology-f.jpg"
+/132="kansasstateuniversity-engineering-f.jpg"
+/133="keenestatecollege-communicationandphilosophy-f.jpg"
+/134="keenestatecollege-newfaculty-f.jpg"
+/135="lanecommunitycollege-advising-f.jpg"
+/137="leeuniversity-unspecified-f.png"
+/138="lehighuniversity-bioengineering-f.jpg"
+/139="lewisandclarkcollege-english-f.jpg"
+/140="lewisandclarkcommunitycollege-newfaculty-f.jpg"
+/141="lewisclarkstatecollege-nursingandhealthsciences-f.jpg"
+/142="libertyuni-history-f.jpg"
+/143="louisianastate-civilandenvironmentalengineering-f.jpg"
+/144="lsu-philosophy-f.jpg"
+/145="luthercollege-biology-f.jpg"
+/146="luthercollege-history-f.jpg"
+/147="luthercollege-modernlanguages-f.jpg"
+/148="manchesteruniversity-chemistry-f.jpg"
+/149="marshalltown-newhires-f.jpg"
+/150="mercycollege-occupationaltherapy-f.jpg"
+/151="messiah-humandevelopment-f.jpg"
+/152="messiah-philosophy-f.jpg"
+/153="michiganstate-computationalscience-f.jpg"
+/154="middleburycollege-newfaculty-f.jpg"
+/155="mississippistate-engineeringresearch-f.jpg"
+/156="mizzou-occupationaltherapy-f.jpg"
+/157="montanastateuniversity-psychology-f.jpg"
+/158="montanastateuniversitybozeman-engineering-f.jpg"
+/160="morningside-appliedagandfoodstudies-f.jpg"
+/161="mountsaintmarycollege-retiringfaculty-f.jpg"
+/162="northcarolinastateuniversity-computerscience-f.jpg"
+/163="northernarizona-astronomyandplanetaryscience-fs.jpg"
+/164="northwesterncollege-newhires-f.jpg"
+/165="northwesternoklahomastateuniversity-business-f.PNG"
+/166="notredame-anthropology-f.jpg"
+/168="notredame-politicalscience-f.jpg"
+/169="notredame-theology-s.jpg"
+/170="NYU-healthcare-f.jpg"
+/171="oberlin-compsci-f.jpg"
+/172="oberlincollege-economics.jpg"
+/173="ohio-modernlanguages-s.jpg"
+/174="ohiostate-engineering-f.jpg"
+/175="ohiostate-hrdepartment-f.jpg"
+/176="ohiostate-nanotechnologyandelectronicmaterials-f.jpg"
+/177="ohiostate-physics-f.jpg"
+/178="ohiostate-psychology-fs.jpg"
+/179="oregonhealthandscienceuniversity-neurology-s.jpg"
+/180="oregonstate-genderandwomenstudies-f.jpg"
+/181="oregonstateuniversity-financeandadministration-f.jpg"
+/182="oregonstateuniversity-psychology-f.jpg"
+/183="pacificuniversity-physicaltherapy-s.png"
+/184="perustatecollege-businessadministration-fs.jpg"
+/185="perustatecollege-newhires-f.jpg"
+/186="pfeifferuniversity-unspecified-f.jpg"
+/187="plymouthstateuniversity-education-f.jpg"
+/188="plymouthstateuniversity-meteorology-f.jpg"
+/189="portlandstatecollege-liberalartsandsciences-f.jpg"
+/190="presbyterian-bio-f.jpg"
+/191="princeton-africanamericanstudies-f.jpg"
+/192="princeton-anthropology-f.jpg"
+/193="princeton-artandarchaeology-s.jpg"
+/194="princeton-astrophysicalsciences-s.jpg"
+/195="princeton-chemicalandbiologicalengineering-s.jpg"
+/196="princeton-chemistry-s.jpg"
+/197="princeton-eastasianstudies-f.jpg"
+/198="princeton-ecologyandevolutionarybiology-s.jpg"
+/199="princeton-economics-s.jpg"
+/200="princeton-english-s.jpg"
+/201="princeton-frenchanditalian-s.jpg"
+/202="princeton-geosciences-s.jpg"
+/203="princeton-mathematics-s.jpg"
+/204="princeton-mechanicalandaerospaceengineering-s.jpg"
+/205="princeton-molecularbiology-s.jpg"
+/206="princeton-neareasternstudies-s.jpg"
+/207="princeton-neuroscience-s.jpg"
+/208="princeton-operationsresearchandfinancialengineering-s.jpg"
+/211="princeton-psychology-s.jpg"
+/212="princeton-publicandinternationalaffairs-s.jpg"
+/214="purdue-mathematics-f.jpg"
+/216="reed-mathematics-f.jpg"
+/217="reedcollege-chemistry-f.jpg"
+/218="reedcollege-mathematics-f.jpg"
+/219="reedcollege-mathematics(2)-f.jpg"
+/220="reedcollege-philosophy-f.jpg"
+/221="reedcollege-psychology-f.jpg"
+/222="rice-biosciences-s.jpg"
+/223="rice-socialsciences-f.jpg"
+/224="rudolphsteinerschool-administration-f.jpg"
+/225="rudolphsteinerschool-music-f.jpg"
+/226="rutgers-gws-f.jpg"
+/227="rutgersuniversity-humanecology-f.jpg"
+/228="rutgersuniversity-libraryandinformationscience-f.jpg"
+/229="rutgersuniversity-stratigraphy-fs.jpg"
+/230="saintmaryofthewoodscollege-musictherapy-f.jpg"
+/231="saintmaryscollege-blackfacultyandstaff-f.jpg"
+/232="samhoustonstateuniversity-agriculturalscience-f.jpg"
+/233="seattleu-mechanicalengineering-f.jpg"
+/234="southalabama-occupationaltherapy-s.jpg"
+/235="southernoregon-studentadvising-f.jpg"
+/236="southernoregonuniversity-criminaljustice-f.jpg"
+/237="southernoregonuniversity-librarystaff-f.jpg"
+/239="st.maryscollegeofmaryland-theaterfilmandmediastudies-f.jpg"
+/240="sterlingcollege-newhires-f.jpg"
+/241="stlawrenceuniversity-newfaculty-f.jpg"
+/242="stmarysacademy-english-f.jpg"
+/243="stmaryscollege-genderandwomenstudies-fs.jpg"
+/244="stmaryscollegeofcalifornia-unspecified-f.jpg"
+/245="stmarysindiana-english-s.jpg"
+/246="swarthmore-psychology-f.jpg"
+/247="tntech-chemistry-f.jpg"
+/248="toledo-occupationaltherapy-f.jpg"
+/251="troy-mathematics-f.jpg"
+/252="tugraz-compsciandbiomedengineering-f.png"
+/253="ucla-chemistryandbiochemistry-f.jpg"
+/254="ucla-neurobiology-f.jpg"
+/255="ucla-sustainability-f.jpg"
+/256="ucsantabarbara-chemistry-f.jpg"
+/257="uhouston-comsciencesanddisorders-f.jpg"
+/258="uillinoischicago-mechanicalindustrialengineering-f.jpg"
+/259="umass-internalmedicine-fs.jpg.jpg"
+/260="umpquacommunitycollege-engineering-f.jpg"
+/261="uncschoolofmedicine-clinicalrehabilitationandmentalhealthcounseling-f.jpg"
+/262="universityatalbany-publicaffairsandpolicy.jpg"
+/263="universityatbuffalo-mathematics-f.jpg"
+/264="universityofdelaware-educationandhumandevelopment-f.jpg"
+/265="universityofflorida-biostatistics-f.jpg"
+/266="universityofflorida-counseloreducation-fs.jpg"
+/267="universityofflorida-counseloreducation2015-s.jpg"
+/268="universityofflorida-counseloreducation2016-fs.jpg"
+/269="universityofflorida-counseloreducation2017-fs.jpg"
+/270="universityofflorida-counseloreducation2018-s.jpg"
+/271="universityofflorida-couseloreducation2014-s.jpg"
+/272="universityofflorida-physicaltherapy-f.jpg"
+/273="universityofflorida-psychology-s.jpg"
+/274="universityofgeorgia-psychology-s.jpg"
+/276="universityofiowa-dance-f.jpg"
+/277="universityofiowa-engineering-f.png"
+/278="universityofiowa-medicine-s.jpg"
+/279="universityofiowa-molecularphysiologyandbiophysics-f.jpg"
+/280="universityofiowa-pathology-f.jpg"
+/281="universityofiowa-religiousstudies-f.jpg"
+/282="universityofkentucky-reasearch-f.jpg"
+/283="universityofluxembourg-computerscienceandcommunications-f.jpg"
+/284="universityofmaryland-civilandenvironmentalengineering-f.jpg"
+/285="universityofmontana_idahostateuniversity-music-f.jpg"
+/286="universityofmontana-journalism-f.jpg"
+/287="universityofmontana-publicadministration-f.jpg"
+/288="universityofmontanabillings-art-fs.jpg"
+/289="universityofnebraska-infectiousdiseases-f.jpg"
+/291="universityofnebraska-microbiologyandpathology-f.jpg"
+/292="universityofnebraska-obgyn-f.jpg"
+/293="universityofnebraska-ruralfuturesinstitute-f.jpg"
+/294="universityofnebraska-womenshealth-f.jpg"
+/295="universityofnebraskalincoln-business-f.jpg"
+/296="universityofnebraskaomaha-healthandkinesiology-f.jpg"
+/297="universityofnebraskaomaha-librarystaff-f.jpg"
+/298="universityofnevadareno-economics-f.jpg"
+/299="universityofnevadareno-history-f.jpg"
+/300="universityofnevadareno-liberalarts-f.jpg"
+/301="universityofnevadareno-newfaculty-f.jpg"
+/302="universityofnevadareno-psychiatryandbehavioralsciences-f.jpg"
+/303="universityofnevadareno-schoolofmedicineofficeforfaculty-f.jpg"
+/304="universityofnewengland-physicaltherapy-fs.jpg"
+/305="universityofnewhampshire-writingacademy-f.jpg"
+/307="universityoforegon-economics-s.jpg"
+/308="universityoforegon-internationalstudies-f.jpg"
+/309="universityoforegon-mechanicalindustrialandmanufacturingengineering-f.jpg"
+/310="universityoforegon-romancelanguages-fs.jpg"
+/311="universityofstthomas-socialwork-f.jpg"
+/312="universityofutah-departmentofchemistry-s.jpg"
+/313="universityofwashington-architecture-f.jpg"
+/315="uofcalifornia-mechanicalengineering-s.jpg"
+/316="uofcoloradoboulder-gws-f.jpg"
+/317="uofillinois-mechanicalscienceandengineering-f.jpg"
+/318="uoflouisianamonroe-occupationaltherapy-fs.jpg"
+/319="uofmaryland-emergencymedicine-fs.jpg"
+/320="uofminnesota-dentistry-fs.jpg"
+/321="uofminnesota-socialpsychology-f.jpg"
+/322="uofminnesota-sociology-f.jpg"
+/323="uofminnesotaduluth-animalandaviansciences-f.jpg"
+/324="uofminnesotaduluth-biology-f.jpg"
+/325="uofminnesotaduluth-medicine-f.jpg"
+/326="uofminnesotamorris-computerscience-s.jpg"
+/327="uofmissouri-occupationaltherapy-f.jpg"
+/328="uofmn-cognitiveandbrainsciences-f.jpg"
+/329="uofnorthcarolina-globalpublichealth-f.jpg"
+/330="uofsouthcarolina-hospitalityretail-s.jpg"
+/331="uoftennessee-plasticsurgery-f.jpg"
+/332="uofvienna-gravitationalphysics-f.jpg"
+/333="upittsburg-gws-f.jpg"
+/334="upittsburg-occupationaltherapy-fs.jpg"
+/335="upperiowa-newhires-f.jpg"
+/336="ursulineschool-schoolnews-f.jpg"
+/337="usc-occupationaltherapy-f.jpg"
+/338="usc-womeninscienceandengineering-f.jpg"
+/340="utexasaustin-mechanicalengineering-f.jpg"
+/341="uttyler-mathematics-f.jpg"
+/342="uvirginia-architecturalhistory-fs.jpg"
+/343="vanderbilt-anesthesiology-f.jpg"
+/344="vanderbilt-cosmeticsurgery-f.jpg"
+/345="vanderbilt-educationandhumandevelopment-f.jpg"
+/346="vanderbilt-internationaleducationpolicyandmanagement-f.jpg"
+/347="vanderbilt-nursing-f.jpg"
+/348="vanderbilt-religion-f.jpg"
+/349="vanderbilt-sociology-f.jpg"
+/350="villanova-biochemengineering-f.jpg"
+/351="villanova-chemistry-f.jpg"
+/352="villanova-educationandcounseling-f.jpg"
+/353="virginiatech-compsci-f.jpg"
+/354="virginiatech-naturalresourcesandenvironment-f.jpg"
+/355="vuamsterdam-computersystems-f.jpg"
+/356="wakeforest-counseling-f.jpg"
+/357="washingtonandlee-sociology-f.jpg"
+/358="washingtonuniversityinstlouis-cardiology-f.jpg"
+/359="washtenawcommunitycollege-mathematics-f.png"
+/361="weberuniversity-music-f.jpg"
+/362="wellesely-economics-f.jpg"
+/363="westerncarolinauniversity-physicaltherapy-f.jpg"
+/364="westernnewyork-dansations-f.jpg"
+/365="westernuniversity-microbiologyandimmunology-f.jpg"
+/366="william-chemistry-f.jpg"
+/367="william-classicalstudies-f.jpg"
+/368="william-geology-f.jpg"
+/369="william-math-f.jpg"
+/370="williampenn-physiology-f.jpg"
+/371="wrightstateuniversity-scienceandmathematics-f.jpg"
+/372="yale-italian-f.png"
+</item>
+
+<item chosendepartment>
+
+</item>
+
+<picture chosendepartment>
+/items=chosendepartment
+/ size = (600,350)
+/ select = noreplacenorepeat
+/ resetinterval = 0
+/ position = (78,50)
+</picture>
+
+<radiobuttons aesthetically_pleasing>
+/ caption="How aesthetically pleasing is this photo?:"
+/ options=("Not aesthetically pleasing at all", "Slightly aesthetically pleasing", "Moderately aesthetically pleasing", "Very aesthetically pleasing", "Extremely aesthetically pleasing")
+/ required=true
+/ position = (10%, 20%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons strength>
+/ caption="How strong is this university's physics department?:"
+/ options=("Not strong at all", "Slightly strong", "Moderately strong", "Very strong", "Extremely strong")
+/ required=true
+/ position = (10%, 45%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons good_at_research>
+/ caption="How good is this department at physics research?:"
+/ options=("Not good at all", "Slightly good", "Moderately good", "Very good", "Extremely good")
+/ required=true
+/ position = (10%, 70%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons persue_appealing>
+/ caption="If you were interested in pursuing a physics degree, how much would this department appeal to you?:"
+/ options=("Not at all", "Slightly", "Moderately", "Very", "Extremely")
+/ required=true
+/ position = (10%, 20%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons intelligent>
+/ caption="How intelligent is this group of professors?:"
+/ options=("Not intelligent at all", "Slightly intelligent", "Moderately intelligent", "Very intelligent", "Extremely intelligent")
+/ required=true
+/ position = (10%, 45%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons hardworking>
+/ caption="How hardworking is this group of professors?:"
+/ options=("Not hardworking at all", "Slightly hardworking", "Moderately hardworking", "Very hardworking", "Extremely hardworking")
+/ required=true
+/ position = (10%, 70%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons social>
+/ caption="How social is this group of professors?:"
+/ options=("Not social at all", "Slightly social", "Moderately social", "Very social", "Extremely social")
+/ required=true
+/ position = (10%, 20%)
+/ fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+<radiobuttons smart_compared_average>
+/ caption="How smart are the members of this department compared to~naverage physics professors?:"
+/ options=("Far below average", "Below average", "Average", "Above average", "Far above average")
+/ required=true
+ / position = (10%, 45%)
+ / fontstyle = ("Verdana", 12)
+</radiobuttons>
+
+
+<textbox papers>
+/ caption="On average, each faculty member in a physics department produces between 1 - 3 papers a year.~nEstimate the number of papers this whole department published last year."
+/ mask=positiveinteger
+/ range = (0,100)
+/ position = (10%, 70%)
+/ fontstyle = ("Verdana", 12)
+</textbox>
+
+
+<text physicsdepartment>  
+/ numitems = 1
+/ items = ("Physics Department Fall 2018 Faculty")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (70,75)
+</text>
+
+<surveypage realpage1>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=noreplacenorepeat(department);2=physicsdepartment]
+/ questions=[1=aesthetically_pleasing; 2=strength; 3=good_at_research]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+/ ontrialend= [item.chosendepartment.item = picture.department.currentitem]
+</surveypage>
+
+<surveypage realpage2>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=chosendepartment;2=physicsdepartment]
+/ questions=[1=persue_appealing; 2=intelligent; 3=hardworking]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+</surveypage>
+
+<surveypage realpage3>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=chosendepartment;2=physicsdepartment]
+/ questions=[1=social; 2=smart_compared_average; 3=papers]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+/ ontrialend= [item.chosendepartment.removeitem(1)]
+
+</surveypage>
+
+
+
+<surveypage ppdpage1>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=noreplacenorepeat(PPD);2=physicsdepartment]
+/ questions=[1=aesthetically_pleasing; 2=strength; 3=good_at_research]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+/ ontrialend= [item.chosendepartment.item = picture.PPD.currentitem]
+</surveypage>
+
+<surveypage ppdpage2>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=chosendepartment;2=physicsdepartment]
+/ questions=[1=persue_appealing; 2=intelligent; 3=hardworking]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+</surveypage>
+
+<surveypage ppdpage3>
+/caption = "Remember, please do your best to give us your gut response and don’t censor yourself."
+/ stimulusframes = [1=chosendepartment;2=physicsdepartment]
+/ questions=[1=social; 2=smart_compared_average; 3=papers]
+/ showbackbutton = false
+/ showpagenumbers = False
+/ showquestionnumbers = False
+/ ontrialend= [item.chosendepartment.removeitem(1)]
+
+</surveypage>
+
+
+<page PPDintro>
+Humans are excellent social perceivers, and can often pick up subtle things from pictures. For example, when someone looks at photos of a college or a department, they can often learn information about how successful or smart the professors in the picture are. These impressions can influence a student’s decision to apply to that school, or to study that major. You will see and evaluate photos of college departments from universities across the country. Give us your gut impressions of the photos.
+
+</page>
+
+<list realpages>
+/ selectionmode = sequence
+/ items = (surveypage.realpage1, surveypage.realpage2, surveypage.realpage3)
+</list>
+
+<list ppdpages>
+/ selectionmode = sequence
+/ items = (surveypage.ppdpage1, surveypage.ppdpage2, surveypage.ppdpage3)
+</list>
+
+<block surveyblock>
+/ screencolor = (255, 255, 255)
+/ trials = [1-3 = list.ppdpages; 4-30 = list.realpages]
+/ preinstructions=(PPDintro)
+
+</block>
+
+
+<picture gaydarfaces>
+/ numitems = 30
+/ items = gaydarfaces
+/ select = noreplacenorepeat
+</picture>
+
+<item gaydarfaces>
+/ 1="SpR8.jpg"
+/ 2="SpR5.jpg"
+/ 3="SpR6.jpg"
+/ 4="SpR7.jpg"
+/ 5="Sp7.jpg"
+/ 6="Sp8.jpg"
+/ 7="Sp9.jpg"
+/ 8="Sp1.jpg"
+/ 9="Sp2.jpg"
+/ 10="Sp4.jpg"
+/ 11="Sp5.jpg"
+/ 12="Sp6.jpg"
+/ 13="Sp3.jpg"
+/ 14="Sh8.jpg"
+/ 15="Sh9.jpg"
+/ 16="ShR1.jpg"
+/ 17="ShR2.jpg"
+/ 18="ShR3.jpg"
+/ 19="ShR4.jpg"
+/ 20="Sh5.jpg"
+/ 21="Sh6.jpg"
+/ 22="Sh7.jpg"
+/ 23="Sh4.jpg"
+/ 24="Sh1.jpg"
+/ 25="Sh2.jpg"
+/ 26="Sh3.jpg"
+/ 27="Ne3.jpg"
+/ 28="Ne4.jpg"
+/ 29="Ne2.jpg"
+/ 30="Ne1.jpg"
+
+</item>
+
+
+
+<text stop>  
+/ numitems = 1
+/ items = ("Next you will be redirected to the studies on Qualtrics")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<trial stop>
+/ validresponse=(noresponse)
+/ timeout = 1000
+</trial>
+
+
+<block stop>
+/ bgstim = (stop)
+</block>
+
+
+<expt>
+/ blocks = [1=coversheet2; 2=CEGtest;3=coversheet3;4 = gaydarBlock;5=coversheet4; 6=surveyblock;7=stop]
+</expt>

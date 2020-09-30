@@ -1,0 +1,795 @@
+﻿
+<picture coversheet1>
+/ items = coversheet1
+</picture>
+
+<item coversheet1>
+/1 = "studyCoverSheet2_3.jpg"
+</item>
+
+<trial coversheet1>  
+/ frames = [1=coversheet1]
+/ trialduration = 5000
+</trial>
+
+<block coversheet1>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet1]
+</block>
+
+
+
+<picture coversheet2>
+/ items = coversheet1
+</picture>
+
+<item coversheet2>
+/1 = "studyCoverSheet2_4_1.jpg"
+</item>
+
+<trial coversheet2>  
+/ frames = [1=coversheet2]
+/ trialduration = 5000
+</trial>
+
+<block coversheet2>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet2]
+</block>
+
+
+
+<picture coversheet3>
+/ items = coversheet1
+</picture>
+
+<item coversheet3>
+/1 = "studyCoverSheet2_4_2.jpg"
+</item>
+
+<trial coversheet3>  
+/ frames = [1=coversheet3]
+/ trialduration = 5000
+</trial>
+
+<block coversheet3>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet3]
+</block>
+
+
+
+<picture coversheet4>
+/ items = coversheet1
+</picture>
+
+<item coversheet4>
+/1 = "studyCoverSheet2_5.jpg"
+</item>
+
+<trial coversheet4>  
+/ frames = [1=coversheet4]
+/ trialduration = 5000
+</trial>
+
+<block coversheet4>
+/ screencolor = (255, 255, 255)
+/ trials = [1 = coversheet4]
+</block>
+
+
+*****************************************************************************************************************************************
+face pretest 
+*****************************************************************************************************************************************
+
+
+<picture faces>
+/ numitems = 104
+/ items = faces
+/ size = (300,500)
+/ select = noreplacenorepeat
+</picture>
+
+<item faces>
+/63 ="ecmi-bm1.jpg"
+/64 ="ecmi-bm2.jpg"
+/65 ="ecmi-bm3.jpg"
+/66 ="ecmi-bm4.jpg"
+/67 ="ecmi-bm5.jpg"
+/68 ="ecmi-bm6.jpg"
+/69 = "pFa17-BM1.jpg"
+/70 = "pFa17-BM2.jpg"
+/71 = "pFa17-BM3.jpg"
+/72 = "pFa17-BM4.jpg"
+/73 = "pFa17-BM5.jpg"
+/74 = "pFa17-BM6.jpg"
+/75 = "pFa17-BM7.png"
+/76 = "pFa17-BM8.jpg"
+/199 = "pFa17-WM1.jpg"
+/200 = "pFa17-WM2.jpg"
+/201 = "pFa17-WM3.jpg"
+/202 = "pFa17-WM4.JPG"
+/203 = "pFa17-WM5.JPG"
+/204 = "pFa17-WM6.jpg"
+/205 = "pFa17-WM7.jpg"
+/206 = "pFa17-WM8.JPG"
+/207 = "pFa17-WM9.jpg"
+/208 = "pFa17-WM10.jpg"
+/209 = "pFa17-WM11.jpg"
+/210 = "pFa17-WM12.jpg"
+/211 = "pFa17-WM13.jpg"
+/212 = "pFa17-WM14.jpg"
+/213 = "pFa17-WM15.jpg"
+/214 = "pFa17-WM16.jpg"
+/215 = "pFa17-WM17.jpg"
+/216 = "pFa17-WM18.jpg"
+/217 = "pFa17-WM19.jpg"
+/218 = "pFa17-WM20.jpg"
+/219 = "pFa17-WM21.jpg"
+/220 = "pFa17-WM22.jpg"
+/221 = "pFa17-WM23.jpg"
+/222 = "pFa17-WM24.jpg"
+/223 = "pFa17-WM25.jpg"
+/224 = "pFa17-WM26.jpeg"
+/225 = "pFa17-WM27.jpg"
+/226 = "pFa17-WM28.jpg"
+/227 = "pFa17-WM29.jpg"
+/228 = "pFa17-WM30.jpg"
+/229 = "pFa17-WM31.jpg"
+/230 = "pFa17-WM32.JPG"
+/231 = "pFa17-WM33.jpg"
+/232 = "pFa17-WM34.jpg"
+/233 = "pFa17-WM35.jpg"
+/234 = "pFa17-WM36.jpg"
+/235 = "pFa17-WM37.jpg"
+/236 = "pFa17-WM38.jpg"
+/237 = "pFa17-WM39.jpg"
+/238 = "pFa17-WM40.jpg"
+/239 = "pFa17-WM41.jpg"
+/240 = "pFa17-WM42.jpg"
+/241 = "pFa17-WM43.jpg"
+/242 = "pFa17-WM44.jpg"
+/243 = "pFa17-WM45.jpg"
+/244 = "pFa17-WM46.JPG"
+/245 = "pFa17-WM47.jpg"
+/246 = "pFa17-WM48.jpg"
+/247 = "pFa17-WM49.jpg"
+/248 = "pFa17-WM50.jpg"
+/249 = "pFa17-WM51.jpg"
+/250 = "pFa17-WM52.jpg"
+/251 = "pFa17-WM53.jpg"
+/252 = "pFa17-WM54.JPG"
+/253 = "pFa17-WM55.jpg"
+/254 = "pFa17-WM56.jpg"
+/255 = "pFa17-WM57.jpg"
+/256 = "pFa17-WM58.jpg"
+/257 = "pFa17-WM59.jpg"
+/258 = "pFa17-WM60.jpg"
+/259 = "pFa17-WM61.jpg"
+/260 = "pFa17-WM62.jpg"
+/261 = "pFa17-WM63.jpg"
+/262 = "pFa17-WM64.jpg"
+/263 = "pFa17-WM65.jpg"
+/264 = "pFa17-WM66.jpg"
+/265 = "pFa17-WM67.jpg"
+/266 = "pFa17-WM68.jpg"
+/267 = "pFa17-WM69.jpg"
+/268 = "pFa17-WM70.jpg"
+/269 = "pFa17-WM71.jpg"
+/270 = "pFa17-WM72.jpg"
+/271 = "pFa17-WM73.jpg"
+/272 = "pFa17-WM74.jpg"
+/273 = "pFa17-WM75.jpg"
+/274 = "pFa17-WM76.jpg"
+/275 = "pFa17-WM77.jpg"
+/276 = "pFa17-WM78.jpg"
+/277 = "pFa17-WM79.jpg"
+/278 = "pFa17-WM80.jpg"
+/279 = "pFa17-WM81.jpg"
+/280 = "pFa17-WM82.jpg"
+/281 = "pFa17-WM83.JPG"
+/282 = "pFa17-WM84.jpg"
+/283 = "pFa17-WM85.jpg"
+/284 = "pFa17-WM86.jpg"
+/285 = "pFa17-WM87.jpg"
+/286 = "pFa17-WM88.jpg"
+/287 = "pFa17-WM89.jpg"
+/288 = "pFa17-WM90.jpg"
+</item>
+
+
+<likert race>
+/ numpoints=8
+/ stimulusframes = [1=faces]
+/ anchors= [1 ="White (European descent)"; 2="Black (African descent)"; 3="East Asian (Chinese, Japanese, Korean, etc. descent)"; 4="South Asian (Indian, Pakistani, Nepalese, etc. descent)"; 5="Hispanic/Latino/Latina"; 6="Middle Eastern/Arabic"; 7="Native American/Pacific Islander"; 8="Not Sure/Not Listed/Mixed/Multiracial" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 13pt)
+/ mouse=true
+</likert>
+
+<likert gender>
+/ numpoints=3
+/ stimulusframes = [1=faces]
+/ anchors= [1 ="Male"; 2="Female"; 3="Not Sure/Not Listed"]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert anger>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1 ="not at all angry"; 7="very angry" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert happy>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all happy"; 7="very happy" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert sad>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all sad"; 7="very sad" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert disgusted>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all digusted"; 7="very digusted" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert fearful>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all fearful"; 7="very fearful" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert neutral>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all neutral"; 7="very neutral" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert attractive>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="not at all attractive"; 7="very attractive" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+<likert photo>
+/ numpoints=7
+/ stimulusframes = [1=faces]
+/ anchors= [1="very poor quality"; 7="very high quality" ]
+/ position= (50, 90)
+/ fontstyle = ("Times New Roman", 14pt)
+/ mouse=true
+</likert>
+
+
+<page intro3>
+The tasks that you are doing in this experiment involve social media and social perception.^^
+For each trial, someone's social media profile picture will be displayed. You will be asked to rate the people in the pictures for various emotional expressions and for their perceived race and gender.^^
+Please work attentively. Answer based on your immediate impression, and do not think about your answers too much. You may not feel certain for some of the pictures, but that is ok. We are not interested in any sort of objective accuracy; we are interested in the immediate impressions these pictures make so that we can use them in future perception studies.  We are not looking at individual people's responses; we're looking at the features of the pictures themselves.
+</page>
+<page end>
+Thank you for participating in the study!  
+</page>
+
+<page race_inst>
+In the next section, please identify the apparent race/ethnicity of the people in the pictures. Remember to respond with your immediate impression. We're looking for how most people would perceive and readily categorize the race/ethnicity of the people in these pictures.^^
+Most people are readily perceived as belonging to one of a few culturally-defined racial groups (e.g., White, Black, Asian, etc.). Appearance is not a perfect guide to someoneís actual racial/ethnic background, but people nevertheless usually perceive someone as being a particular race. Remember that in this task we are interested in that perception, whether or not it is fully accurate. Respond with the race you believe people would readily assume the pictured person is. If the pictured person does not strike you as fitting one of the listed labels, please use the "Not Sure" option.
+</page>
+
+<text racereminder>  
+/ numitems = 1
+/ items = ("What is this individuals race?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page gender_inst>
+In the next section, please identify the apparent gender of the people in the pictures. Remember to respond with your immediate impression. Weíre looking for how most people would perceive and readily categorize the gender of the people in these pictures. ^^
+Most people are readily perceived as being either male or female, but sometimes people self-define their gender in different ways. We expect that most people you see in this task will strike you as either male or female, but if someone does not, please use the "Not Sure" option.
+</page>
+
+<text genderreminder>  
+/ numitems = 1
+/ items = ("What is this individuals gender?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+
+<page anger_inst>
+Please rate how angry you believe each face is.  Answer by clicking on the appropriate number on the scale at the bottom of the screen.  Work quickly and use your gut instincts.
+</page>
+
+<text angerreminder>  
+/ numitems = 1
+/ items = ("How angry is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page happy_inst>
+Please rate how happy you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text happyreminder>
+/ numitems = 1
+/ items = ("How happy is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page sad_inst>
+Please rate how sad you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text sadreminder>  
+/ numitems = 1
+/ items = ("How sad is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page disgusted_inst>
+Please rate how disgusted you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text disgustedreminder>  
+/ numitems = 1
+/ items = ("How disgusted is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page fearful_inst>
+Please rate how fearful you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text fearfulreminder>  
+/ numitems = 1
+/ items = ("How fearful is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page neutral_inst>
+Please rate how neutral you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text neutralreminder>  
+/ numitems = 1
+/ items = ("How neutral is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page attractive_inst>
+Please rate how attractive you believe each face to be. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text attractivereminder>  
+/ numitems = 1
+/ items = ("How attractive is the face?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<page photo_inst>
+Please rate the photo quality. Answer by clicking on the appropriate number on the scale at the bottom of the screen. Work quickly and use your gut instincts.
+</page>
+
+<text photoreminder>  
+/ numitems = 1
+/ items = ("What is the quality of this photo?")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 15)
+</text>
+
+<block anger>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (anger_inst)
+/ bgstim = (angerreminder)
+/ trials = [1-104 = anger]
+</block>
+
+<block happy>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (happy_inst)
+/ bgstim = (happyreminder)
+/ trials = [1-104 = happy]
+</block>
+
+<block sad>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (sad_inst)
+/ bgstim = (sadreminder)
+/ trials = [1-104 = sad]
+</block>
+
+<block disgusted>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (disgusted_inst)
+/ bgstim = (disgustedreminder)
+/ trials = [1-104= disgusted]
+</block>
+
+<block fearful>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (fearful_inst)
+/ bgstim = (fearfulreminder)
+/ trials = [1-104 = fearful]
+</block>
+
+<block neutral>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (neutral_inst)
+/ bgstim = (neutralreminder)
+/ trials = [1-104 = neutral]
+</block>
+
+<block attractive>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (attractive_inst)
+/ bgstim = (attractivereminder)
+/ trials = [1-104 = attractive]
+</block>
+
+<block photo>
+/ screencolor = (255, 255, 255)
+/ preinstructions = (photo_inst)
+/ bgstim = (photoreminder)
+/ trials = [1-30 = photo]
+</block>
+
+
+
+
+*****************************************************************************************************************************************
+CEG NF only
+*****************************************************************************************************************************************
+
+
+<picture test_P>
+/ items = test
+/ select = noreplacenorepeat
+/ size = (800, 1200)
+/ erase = false
+
+</picture>
+
+<item test>
+
+/ 63="ecmi-wm1-224FB.jpg"
+/ 72="ecmi-wm2-33FB.jpg"
+/ 73="ecmi-wm3-198FB.jpg"
+/ 74="ecmi-wm4-268FB.jpg"
+/ 75="ecmi-wm5-80FB.jpg"
+/ 76="ecmi-wm6-187FB.jpg"
+/ 77="ecmi-wm7-127FB.jpg"
+/ 78="ecmi-wm8-141FB.jpg"
+/ 79="ecmi-wm9-59FB.jpg"
+/ 80="ecmi-wm10-191FB.jpg"
+/ 81="ecmi-wm11-18FB.jpg"
+/ 64="ecmi-wm12-46FB.jpg"
+/ 82="ecmi-wm13-61FB.jpg"
+/ 83="ecmi-wm14-20FB.jpg"
+/ 84="ecmi-wm15-259FB.jpg"
+/ 85="ecmi-wm16-104FB.jpg"
+/ 86="ecmi-wm17-131FB.jpg"
+/ 87="ecmi-wm18-140FB.jpg"
+
+/ 31="ecmi-bm1-68FB.jpg"
+/ 32="ecmi-bm2-30FB.jpg"
+
+/ 1="ecmi-am1-288FB.jpg"
+/ 10="ecmi-am2-7FB.jpg"
+/ 11="ecmi-am3-92FB.jpg"
+/ 12="ecmi-am4-139FB.jpg"
+/ 13="ecmi-am5-160FB.jpg"
+
+/ 117="ecmi-ww1-52FB.jpg"
+/ 126="ecmi-ww2-209FB.jpg"
+/ 127="ecmi-ww3-245FB.jpg"
+/ 128="ecmi-ww4-180FB.jpg"
+/ 129="ecmi-ww5-193FB.jpg"
+/ 130="ecmi-ww6-27FB.jpg"
+/ 131="ecmi-ww7-179FB.jpg"
+/ 132="ecmi-ww8-235FB.jpg"
+/ 133="ecmi-ww9-82FB.jpg"
+/ 134="ecmi-ww10-73FB.jpg"
+/ 135="ecmi-ww11-112FB.jpg"
+/ 118="ecmi-ww12-152FB.jpg"
+/ 136="ecmi-ww13-135FB.jpg"
+/ 137="ecmi-ww14-220FB.jpg"
+/ 138="ecmi-ww15-130FB.jpg"
+/ 139="ecmi-ww16-205FB.jpg"
+/ 140="ecmi-ww17-263FB.jpg"
+/ 141="ecmi-ww18-190FB.jpg"
+
+/ 37="ecmi-bw1-24FB.jpg"
+/ 38="ecmi-bw2-43FB.jpg"
+
+/ 16="ecmi-aw1-25FB.jpg"
+/ 25="ecmi-aw2-106FB.jpg"
+/ 26="ecmi-aw3-53FB.jpg"
+/ 27="ecmi-aw4-201FB.jpg"
+/ 28="ecmi-aw5-90FB.jpg"
+
+</item>
+
+
+<text StraightLeft>  
+/ numitems = 1
+/ items = ("Hit 'S' for Straight")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (10, 10)
+</text>
+
+<text GayRight>  
+/ numitems = 1
+/ items = ("Hit 'G' for Gay")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (80, 10)
+</text>
+
+<text Chemistryright>  
+/ numitems = 1
+/ items = ("Hit 'K' for Chemistry")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (80, 10)
+</text>
+
+<text Englishleft>  
+/ numitems = 1
+/ items = ("Hit 'D' for English")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (10, 10)
+</text>
+
+<text NFRecord>  
+/ numitems = 1
+/ items = ("      Response Recorded     ")
+/ font = ("Times New Roman", -28, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ color = (0, 0, 0)
+/ position = (50, 95)
+/ erase = false
+</text>
+
+
+<text Notsurebottom>  
+/ numitems = 1
+/ items = ("Hit 'N' for I’m not sure")
+/ font = ("Times New Roman", -24, 700, 0, 49)
+/ txbgcolor = (255, 255, 255)
+/ position = (50, 90)
+</text>
+
+
+<trial test>
+
+/ validkeys = ("d", "k", "n")
+/ correctresponse = ("k")
+/ frames = [1= noreplace(eraseword);20=noreplace(test_P)]
+/ errormessage = (NFRecord, 500)
+/ correctmessage = (NFRecord, 500)
+
+</trial>
+
+
+trial gaydar>
+
+/ validkeys = ("d", "k", "n")
+/ correctresponse = ("k")
+/ frames = [1= noreplace(eraseword);20=noreplace(gaydarfaces)]
+/ errormessage = (NFRecord, 500)
+/ correctmessage = (NFRecord, 500)
+
+</trial>
+
+***********Testing blocks********
+<block CEGtest>
+/ trials = [1-50=noreplacenorepeat(test)]
+
+/ screencolor = (255, 255, 255)
+/ bgstim = (Englishleft, Chemistryright, Notsurebottom)
+/ preinstructions = (categorize_page1,categorize_page2,categorize_page3)
+</block>
+
+block gaydarBlock>
+/ trials = [1-30=noreplacenorepeat(gaydar)]
+
+/ screencolor = (255, 255, 255)
+/ bgstim = (straightLeft, gayRight, Notsurebottom)
+/ preinstructions = (categorize_page4,categorize_page5)
+</block>
+
+
+
+***shape
+<shape eraseword>
+/ color = (255, 255, 255)
+/ position = (50, 95)
+/ shape = rectangle
+/ size = (700, 50)
+/ erase = false
+</shape>
+
+
+*shape to block rest of facebook profiles during face recognition task
+<shape rectangle_right>
+/ shape = rectangle
+/ color = (255, 255, 255)
+/ position = (65, 58)
+/ size = ( 800,400)
+/ erase = false
+</shape>
+
+<shape rectangle_left>
+/ shape = rectangle
+/ color = (255, 255, 255)
+/ position = (30%, 75%)
+/ size = ( 300,300)
+/ erase = false
+</shape>
+
+<page categorize_page1>  
+The task that you will be doing in this experiment involves interpersonal perception on social networking sites.^^
+Social networking sites like Facebook have become the new frontier of human social interaction.  We are studying how people perceive and understand each other through these new social environments.^^
+This study is interested in the workings of social networking and its influence on personal identification. Today, we are looking at how people are able to perceive a person's academic major from Facebook profiles.^^
+We collected profiles of English and chemistry majors from Facebook. There will be about half English majors and half Chemistry majors. On each trial, you will see a Facebook profile and tell us whether the person is an English or a chemistry major.^^  
+</page>
+
+<page categorize_page2>
+We want to pretest how people perceive these people's profiles before using them in another study.  You're helping us pick which Facebook profiles we will use in our study.^^
+You will be shown a person's Facebook profile and you will report whether the person strikes you as an English or a chemistry major. ^^
+You should respond quickly, giving your gut responses for each profile.^^
+Consider the person's profile "likes" or interests when you make the judgments.  Please don't censor yourself; we need your real, unfiltered reactions to help understand implicit interpersonal perception online.  Don't try to infuse your personal values; respond with what you believe most people would say.^^
+</page>
+
+<page categorize_page3> 
+REMEMBER: The two categories that you are to distinguish are:^^
+CHEMISTRY MAJOR vs. ENGLISH MAJOR.^^
+Press the ‘K' key if the stimulus is a CHEMISTRY MAJOR.^^
+Press the ‘D' key if the stimulus is an ENGLISH MAJOR.^^
+</page>
+
+<page categorize_page4>  
+The task that you will be doing in this experiment involves interpersonal perception on social networking sites.^^
+
+We want to pretest how people perceive these people's profiles before using them in another study.  
+You're helping us pick which Facebook profiles we will use in our study.^^
+You will be shown a person's Facebook profile and you will report whether the person strikes you as an gay or straight. ^^
+You should respond quickly, giving your gut responses for each profile.^^
+Consider the person's profile "likes" or interests when you make the judgments.  
+Please don't censor yourself; we need your real, unfiltered reactions to help understand implicit interpersonal perception online.  
+Don't try to infuse your personal values; respond with what you believe most people would say.^^
+</page>
+
+<page categorize_page5> 
+REMEMBER: The two categories that you are to distinguish are:^^
+GAY vs. STRAIGHT.^^
+Press the ‘S' key if the stimulus is STRAIIGHT.^^
+Press the ‘G' key if the stimulus is GAY.^^
+</page>
+
+
+<video samplevideos>
+/ items = samplevideositems
+/ playthrough = false
+</video>
+
+<item samplevideositems>
+/ 1 = "Sample 1.mov"
+/ 2 = "Sample 2.mov"
+</item>
+
+<video trialvideos>
+/ items = trialvideositems
+/ playthrough = false
+</video>
+
+<item trialvideositems>
+/ 1 ="Young Black 2 Angry to Neutral.mov"
+/ 2 ="Young White Neutral to Happy.mov"
+/ 3 ="Young White Neutral to Angry.mov"
+/ 4 ="Young White Happy to Neutral.mov"
+/ 5 ="Young White Happy to Angry.mov"
+/ 6 ="Young White Angry to Neutral.mov"
+/ 7 ="Young White Angry to Happy.mov"
+/ 8 ="Young White 2 Neutral to Happy.mov"
+/ 9 ="Young White 2 Neutral to Angry.mov"
+/ 10 ="Young White 2 Happy to Neutral.mov"
+/ 11 ="Young White 2 Happy to Angry.mov"
+/ 12 ="Young White 2 Angry to Neutral.mov"
+/ 13 ="Young White 2 Angry to Happy.mov"
+/ 14 ="Young Black Neutral to Happy.mov"
+/ 15 ="Young Black Neutral to Angry.mov"
+/ 16 ="Young Black Happy to Neutral.mov"
+/ 17 ="Young Black Happy to Angry.mov"
+/ 18 ="Young Black Angry to Neutral.mov"
+/ 19 ="Young Black Angry to Happy.mov"
+/ 20 ="Young Black 2 Neutral to Happy.mov"
+/ 21 ="Young Black 2 Neutral to Angry.mov"
+/ 22 ="Young Black 2 Happy to Neutral.mov"
+/ 23 ="Young Black 2 Happy to Angry.mov"
+/ 24 ="Young Black 2 Angry to Happy.mov"
+</item>
+
+<trial sample>
+/ stimulusframes = [1=instructions;2=samplevideos]
+/ timeout = 17000
+/ inputdevice = keyboard
+/ validresponse = (57)
+</trial>
+
+<trial youthtrials>
+/ stimulusframes = [1=instructions;2=trialvideos]
+/ timeout = 17000
+/ inputdevice = keyboard
+/ validresponse = (57)
+</trial>
+
+<instruct>  
+/ nextlabel =  ("Next")
+/ inputdevice = mouse
+/ prevlabel = ("Previous")
+/ lastlabel = ("Next")
+/ font = ("Times New Roman", -20, 400, 0, 34)
+</instruct>
+
+<text instructions>
+/ items = ("Press SPACE when the first emotion disappears")
+/ position = (50, 8)
+</text>
+
+<block facevideos>
+/ screencolor = (255, 255, 255)
+/ trials = [1-2=random(sample);3-26=random(youthtrials)]
+</block>
+
+
+
+<expt>
+/ blocks = [1=coversheet1; 2=anger; 3=happy; 4=sad; 5=disgusted; 6=fearful; 7=attractive; 8=facevideos]
+</expt>
